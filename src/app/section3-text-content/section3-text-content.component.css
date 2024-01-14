@@ -1,0 +1,17 @@
+.designed-future-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  font-family: "Overpass", sans-serif;
+}
+.designed-future-contain .designed-future-contain-title {
+  color: hsl(237, 23%, 32%);
+}
+.designed-future-contain .designed-future-contain-paragraph {
+  color: hsl(207, 13%, 34%);
+  width: 100%;
+  line-height: 1.7rem;
+  font-size: 0.9em;
+}
+
+/*# sourceMappingURL=section3-text-content.component.css.map */
