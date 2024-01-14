@@ -1,0 +1,20 @@
+.section3 {
+  height: 150vh;
+  background-image: url("../../../assets/illustration-laptop-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 55rem 45rem;
+  background-position: -250px 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5rem;
+}
+.section3 .section3-text {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/*# sourceMappingURL=section3.component.css.map */

@@ -1,0 +1,22 @@
+.blogr-footer {
+  border-radius: 0 100px 0 0;
+  height: 45vh;
+  background-color: hsl(240, 10%, 16%);
+  display: flex;
+  padding: 5rem 0 0 10rem;
+  gap: 10rem;
+}
+.blogr-footer .logo {
+  width: 6rem;
+  height: 2.5rem;
+  background-image: url("../../../assets/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.blogr-footer .footer-elements {
+  display: flex;
+  width: 32rem;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=footer.component.css.map */
