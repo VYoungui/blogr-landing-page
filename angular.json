@@ -59,6 +59,9 @@
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
+            },
+            "stylePreprocessorOptions": {
+              "includePaths": [""]
             }
           },
           "configurations": {
@@ -124,5 +127,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "abcd1bd5-d4a7-4974-80fc-fa19bc474864"
   }
 }

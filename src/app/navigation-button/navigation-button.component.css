@@ -1,0 +1,21 @@
+.button-container {
+  width: 7rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.button-container .navigation-button {
+  color: hsl(0, 0%, 100%);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.button-container .navigation-button .button-background {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(13, 100%, 72%);
+}
+
+/*# sourceMappingURL=navigation-button.component.css.map */

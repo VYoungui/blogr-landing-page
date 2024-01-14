@@ -1,0 +1,29 @@
+.designed-future {
+  border: 1px solid;
+  height: 100vh;
+  background-image: url("../../assets/illustration-editor-desktop.svg");
+  background-size: 47rem 44.3rem;
+  background-repeat: no-repeat;
+  background-position: 46rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
+  padding: 8rem;
+}
+.designed-future .designed-future-title {
+  font-family: "Overpass", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  color: hsl(237, 23%, 32%);
+  text-align: center;
+  width: 100%;
+}
+.designed-future .designed-future-message {
+  border: 1px solid;
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/*# sourceMappingURL=designed-future.component.css.map */

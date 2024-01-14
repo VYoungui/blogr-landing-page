@@ -1,0 +1,19 @@
+.navigation-element-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .element-list{
+    display: flex;
+    width: 30rem;
+    gap: 10px;
+  }
+
+  .button-list{
+    display: flex;
+    width: 20rem;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+}
+

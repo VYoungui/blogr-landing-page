@@ -1,0 +1,15 @@
+.navbar {
+  border: 1px solid;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.navbar .logo {
+  width: 5rem;
+  height: 2rem;
+  background-image: url("../../assets/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=navbar.component.css.map */

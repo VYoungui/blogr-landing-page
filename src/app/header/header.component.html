@@ -1,0 +1,16 @@
+<header class="blogr-header">
+  <app-navbar></app-navbar>
+
+  <div class="header-content">
+    <div class="header-text">
+      <h1 class="header-title">A modern publishing platform</h1>
+      <p class="header-paragraph">Grow your audience and build your online brand</p>
+    </div>
+
+    <div class="header-button">
+      <app-navigation-button *ngFor="let button of HeaderButtons" [navigationButton]="button"></app-navigation-button>
+    </div>
+  </div>
+
+
+</header>

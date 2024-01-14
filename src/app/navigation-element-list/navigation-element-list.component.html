@@ -1,0 +1,9 @@
+<div class="navigation-element-list">
+  <ul class="element-list">
+    <app-navigation-element *ngFor="let element of NavigationElements" [navigationElement]="element"></app-navigation-element>
+  </ul>
+  <div class="button-list">
+    <app-navigation-button *ngFor="let button of NavigationButtons" [navigationButton]="button"></app-navigation-button>
+  </div>
+</div>
+
