@@ -1,5 +1,4 @@
 .designed-future {
-  border: 1px solid;
   height: 100vh;
   background-image: url("../../assets/illustration-editor-desktop.svg");
   background-size: 47rem 44.3rem;
@@ -19,7 +18,6 @@
   width: 100%;
 }
 .designed-future .designed-future-message {
-  border: 1px solid;
   width: 33rem;
   display: flex;
   flex-direction: column;

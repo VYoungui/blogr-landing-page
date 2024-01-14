@@ -1,1 +1,6 @@
-<p>footer works!</p>
+<footer class="blogr-footer">
+  <div class="logo"></div>
+  <aside class="footer-elements">
+    <app-footer-element *ngFor="let footerElement of  footerElements" [footerElement]="footerElement"></app-footer-element>
+  </aside>
+</footer>

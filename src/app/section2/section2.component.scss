@@ -1,6 +1,5 @@
 .section2{
   height: 65vh;
-  border: 1px solid;
   border-radius: 0 7rem 0 7rem;
   background-color:   hsl(237, 17%, 21%);
   background-image: url("../../assets/bg-pattern-circles.svg");
@@ -19,7 +18,6 @@
 
   .section2-message{
     width: 32rem;
-    border: 1px solid;
     color: hsl(0, 0%, 100%);
     height: 10rem;
     display: flex;

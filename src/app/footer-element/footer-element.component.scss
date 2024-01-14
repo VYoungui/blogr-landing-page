@@ -1,0 +1,24 @@
+.footer-text{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+
+  .footer-title{
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 400;
+
+  }
+
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    color: hsl(0, 0%, 70%);
+    font-size: 13px;
+  }
+
+}
