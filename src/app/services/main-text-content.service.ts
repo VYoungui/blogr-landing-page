@@ -17,7 +17,13 @@ export class MainTextContentService {
       paragraph : "Flexible content management enables users to move through posts. Increase the usability of your blog " +
         "by adding customized categories, sections, format, or flow. With this functionality, you're in full control."
     }
-  ]
+  ];
+
+  section2Text: mainTextContentModel = {
+    title : "State of the Art Infrastructure",
+    paragraph: "With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. " +
+      "This ensures your site will load instantly, no matter where your readers are, keeping your site competitive."
+  }
 
 
 }

@@ -1,0 +1,43 @@
+.section2{
+  height: 65vh;
+  border: 1px solid;
+  border-radius: 0 7rem 0 7rem;
+  background-color:   hsl(237, 17%, 21%);
+  background-image: url("../../assets/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-size: 50.5rem 50.5rem;
+  background-position: -166px 82%;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+
+  .phone-illustration{
+    width: 500px;
+    height: 537px;
+    transform: translate(10%, 3%);
+  }
+
+  .section2-message{
+    width: 32frem;
+    border: 1px solid;
+    color: hsl(0, 0%, 100%);
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Overpass", sans-serif;
+
+    .section2-title{
+      font-weight: 700;
+      font-size: 1.75em;
+
+    }
+
+    .section2-paragraph{
+      font-weight: 500;
+      font-size: 0.9em;
+      line-height: 1.5rem;
+    }
+
+  }
+}
